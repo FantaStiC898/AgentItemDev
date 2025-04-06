@@ -1,0 +1,234 @@
+<h1>Item Analysis Report</h1><p>Date: 2025-03-22</p><hr><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Viewer</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .think-container {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 15px;
+        }
+        
+        .think-summary {
+            cursor: pointer;
+            color: #2196F3;
+            font-weight: 500;
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            background-color: #f5f5f5;
+            transition: background-color 0.3s;
+        }
+        
+        .think-summary:hover {
+            background-color: #e3f2fd;
+        }
+        
+        .think-content {
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            border-left: 4px solid #2196F3;
+        }
+        
+        .think-content p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .think-content code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .think-content pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        
+        .json-viewer {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+            max-height: 400px;
+            overflow: auto;
+        }
+        
+        .json-string { color: #008000; }
+        .json-number { color: #0000ff; }
+        .json-boolean { color: #b22222; }
+        .json-null { color: #808080; }
+        .json-key { color: #a52a2a; }
+        
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+        }
+        
+        .markdown-body {
+            line-height: 1.6;
+        }
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+        .markdown-body code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(27,31,35,0.05);
+            border-radius: 3px;
+        }
+        .markdown-body pre {
+            padding: 16px;
+            overflow: auto;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #f6f8fa;
+            border-radius: 3px;
+        }
+        
+        .markdown-section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        
+        
+        <div class="markdown-section markdown-body">
+            <p>Based on the provided data for the four USMLE Step1 test items, here is an analysis of each item:</p>
+<h3>Item PBM_20240905_3928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1:</h3>
+<ul>
+<li><strong>Difficulty (Mean):</strong> 0.5790</li>
+<li><strong>Standard Deviation (SD):</strong> 0.4938</li>
+<li><strong>Item-Rest Correlation (RIR):</strong> 0.1275</li>
+<li><strong>Item-Test Correlation (RIT):</strong> 0.2824</li>
+<li><strong>Analysis:</strong> This item shows moderate difficulty with relatively low RIR and RIT values. The distractor analysis reveals that distractor B and C have low proportions of selection across all performance levels and may need revision.</li>
+</ul>
+<h3>Item PBM_20240906_4928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1:</h3>
+<ul>
+<li><strong>Difficulty (Mean):</strong> 0.5755</li>
+<li><strong>Standard Deviation (SD):</strong> 0.4944</li>
+<li><strong>Item-Rest Correlation (RIR):</strong> 0.1299</li>
+<li><strong>Item-Test Correlation (RIT):</strong> 0.2847</li>
+<li><strong>Analysis:</strong> This item also exhibits moderate difficulty. Distractor D shows very low selection rates across all performance levels, indicating it may not effectively discriminate between high and low performers.</li>
+</ul>
+<h3>Item PBM_20240907_5928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1:</h3>
+<ul>
+<li><strong>Difficulty (Mean):</strong> 0.6745</li>
+<li><strong>Standard Deviation (SD):</strong> 0.4687</li>
+<li><strong>Item-Rest Correlation (RIR):</strong> 0.2142</li>
+<li><strong>Item-Test Correlation (RIT):</strong> 0.3559</li>
+<li><strong>Analysis:</strong> This item shows higher difficulty compared to the previous items. Distractor A has very low selection rates across all performance levels and may not be effective as a distractor.</li>
+</ul>
+<h3>Item PBM_20240908_6928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1:</h3>
+<ul>
+<li><strong>Difficulty (Mean):</strong> 0.5480</li>
+<li><strong>Standard Deviation (SD):</strong> 0.4978</li>
+<li><strong>Item-Rest Correlation (RIR):</strong> 0.1511</li>
+<li><strong>Item-Test Correlation (RIT):</strong> 0.3058</li>
+<li><strong>Analysis:</strong> This item shows moderate difficulty. Distractors A and B exhibit low selection rates across all performance levels, indicating the need for revision to enhance their effectiveness.</li>
+</ul>
+<p>In summary, improvements are suggested for revising distractors in multiple items to enhance their quality and ensuring better discrimination between high and low performers. Additionally, monitoring the difficulty levels to maintain an appropriate balance is recommended for effective item evaluation.</p>
+        </div>
+        
+        
+    </div>
+    
+    <script>
+        const json_fb5e589b_jsonContent = `{}`;
+    </script>
+    
+    <script>
+        function highlightJSON(json) {
+            if (!json) return "";
+            return json
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/("(\u[a-zA-Z0-9]{4}|\[^u]|[^\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+                    let cls = "json-number";
+                    if (/^"/.test(match)) {
+                        if (/:$/.test(match)) {
+                            cls = "json-key";
+                        } else {
+                            cls = "json-string";
+                        }
+                    } else if (/true|false/.test(match)) {
+                        cls = "json-boolean";
+                    } else if (/null/.test(match)) {
+                        cls = "json-null";
+                    }
+                    return '<span class="' + cls + '">' + match + '</span>';
+                });
+        }
+        
+        function formatJSON(jsonString) {
+            try {
+                const json = JSON.parse(jsonString);
+                return JSON.stringify(json, null, 2);
+            } catch (e) {
+                return jsonString;
+            }
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            // Process inline JSON code blocks
+            const jsonBlocks = document.querySelectorAll("pre code.language-json");
+            jsonBlocks.forEach(function(block) {
+                const jsonContent = block.textContent;
+                const formattedJSON = formatJSON(jsonContent);
+                const highlightedJSON = highlightJSON(formattedJSON);
+                
+                const viewer = document.createElement("div");
+                viewer.className = "json-viewer";
+                viewer.innerHTML = "<pre>" + highlightedJSON + "</pre>";
+                
+                block.parentNode.parentNode.replaceChild(viewer, block.parentNode);
+            });
+            
+            // Process main JSON display area - using unique ID
+            if (document.getElementById('json_fb5e589b') && typeof json_fb5e589b_jsonContent !== 'undefined') {
+                const formattedJSON = formatJSON(json_fb5e589b_jsonContent);
+                document.getElementById('json_fb5e589b').innerHTML = highlightJSON(formattedJSON);
+            }
+        });
+    </script>
+    
+</body>
+</html>
+
