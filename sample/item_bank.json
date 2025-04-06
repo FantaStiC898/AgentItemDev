@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 2,
+    "disciplines": "Pharmacology",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 3,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 4,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Human Development",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 5,
+    "disciplines": "Immunology",
+    "systems": "Cardiovascular System",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 6,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 7,
+    "disciplines": "Genetics",
+    "systems": "Cardiovascular System",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 8,
+    "disciplines": "Immunology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 9,
+    "disciplines": "Genetics",
+    "systems": "Human Development",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 10,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Human Development",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 11,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Gastrointestinal System",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 12,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Human Development",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 13,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 14,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 15,
+    "disciplines": "Pathology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 16,
+    "disciplines": "Immunology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 17,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 18,
+    "disciplines": "Genetics",
+    "systems": "Gastrointestinal System",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 19,
+    "disciplines": "Genetics",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 20,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 21,
+    "disciplines": "Pharmacology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 22,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 23,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 24,
+    "disciplines": "Pharmacology",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 25,
+    "disciplines": "Pathology",
+    "systems": "Cardiovascular System",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 26,
+    "disciplines": "Microbiology",
+    "systems": "Human Development",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 27,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 28,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 29,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 30,
+    "disciplines": "Pathology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 31,
+    "disciplines": "Pharmacology",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 32,
+    "disciplines": "Pathology",
+    "systems": "Cardiovascular System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 33,
+    "disciplines": "Pathology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 34,
+    "disciplines": "Pharmacology",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 35,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 36,
+    "disciplines": "Immunology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 37,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 38,
+    "disciplines": "Genetics",
+    "systems": "Multisystem Processes & Disorders",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 39,
+    "disciplines": "Pharmacology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 40,
+    "disciplines": "Immunology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 41,
+    "disciplines": "Genetics",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 42,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Human Development",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 43,
+    "disciplines": "Immunology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 44,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Cardiovascular System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 45,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 46,
+    "disciplines": "Immunology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 47,
+    "disciplines": "Microbiology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 48,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Human Development",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 49,
+    "disciplines": "Immunology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 50,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Multisystem Processes & Disorders",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 51,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 52,
+    "disciplines": "Microbiology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 53,
+    "disciplines": "Genetics",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 54,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 55,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Human Development",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 56,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 57,
+    "disciplines": "Pathology",
+    "systems": "Human Development",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 58,
+    "disciplines": "Immunology",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 59,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 60,
+    "disciplines": "Physiology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 61,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 62,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Human Development",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 63,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 64,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 65,
+    "disciplines": "Genetics",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 66,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 67,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 68,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 69,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 70,
+    "disciplines": "Pathology",
+    "systems": "Human Development",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 71,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 72,
+    "disciplines": "Immunology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 73,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 74,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Cardiovascular System",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 75,
+    "disciplines": "Immunology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 76,
+    "disciplines": "Pathology",
+    "systems": "Multisystem Processes & Disorders",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 77,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Gastrointestinal System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 78,
+    "disciplines": "Physiology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 79,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 80,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 81,
+    "disciplines": "Physiology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 82,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 83,
+    "disciplines": "Pathology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 84,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Social Sciences: Communication and Interpersonal Skills",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 85,
+    "disciplines": "Immunology",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 86,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 87,
+    "disciplines": "Genetics",
+    "systems": "Human Development",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 88,
+    "disciplines": "Gross Anatomy & Embryology",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 89,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Multisystem Processes & Disorders",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 90,
+    "disciplines": "Pathology",
+    "systems": "Cardiovascular System",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 91,
+    "disciplines": "Biochemistry & Nutrition",
+    "systems": "Cardiovascular System",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 92,
+    "disciplines": "Pathology",
+    "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+    "competencies": "Patient Care: Diagnosis"
+  },
+  {
+    "id": 93,
+    "disciplines": "Physiology",
+    "systems": "Cardiovascular System",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 94,
+    "disciplines": "Genetics",
+    "systems": "Blood & Lymphoreticular/Immune Systems",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 95,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Biostatistics & Epidemiology/Population Health",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 96,
+    "disciplines": "Behavioral Sciences",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 97,
+    "disciplines": "Genetics",
+    "systems": "Cardiovascular System",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  },
+  {
+    "id": 98,
+    "disciplines": "Histology & Cell Biology",
+    "systems": "Cardiovascular System",
+    "competencies": "Practice–based Learning & Improvement"
+  },
+  {
+    "id": 99,
+    "disciplines": "Pharmacology",
+    "systems": "Respiratory & Renal/Urinary Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  },
+  {
+    "id": 100,
+    "disciplines": "Pathology",
+    "systems": "Reproductive & Endocrine Systems",
+    "competencies": "Communication and Interpersonal Skills"
+  }
+]
