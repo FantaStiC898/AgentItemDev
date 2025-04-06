@@ -1,0 +1,7 @@
+[
+  {
+    "disciplines": "Microbiology",
+    "systems": "Behavioral Health & Nervous Systems/Special Senses",
+    "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+  }
+]
