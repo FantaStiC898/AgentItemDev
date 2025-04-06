@@ -1,0 +1,15 @@
+{
+  "question": ["A 38-year-old man with untreated HIV/AIDS presents with decreased vision in the right eye. Fundoscopic examination is performed. Which organism is most likely responsible for the characteristic retinal findings observed?"],
+  "options": {
+    "A": ["Cytomegalovirus"],
+    "B": ["Herpes simplex virus"],
+    "C": ["Toxoplasma gondii"],
+    "D": ["Mycobacterium tuberculosis"],
+    "E": ["Treponema pallidum"]
+  },
+  "correct_answer": ["A"],
+  "explanation": ["Cytomegalovirus (CMV) retinitis is a common opportunistic infection in severely immunocompromised patients like those with AIDS. The funduscopic finding of fluffy white retinal lesions with perivascular distribution supports CMV. HSV causes necrotizing retinitis. Toxoplasma affects the CNS parenchyma, not the retina directly. Tuberculosis and syphilis have distinct ocular manifestations but are less likely here."],
+  "image_needed": [true],
+  "image_type": ["fundus"],
+  "image_prompt": ["Fundus shows white fluffy retinal lesions near arterioles"]
+}

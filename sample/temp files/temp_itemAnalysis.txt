@@ -1,0 +1,46 @@
+[1] "PBM_20240905_3928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1"
+[2] "PBM_20240906_4928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1"
+[3] "PBM_20240907_5928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1"
+[4] "PBM_20240908_6928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1"
+.These items' difficulty estimate(i.e., mean), standard deviation(SD),item-rest correlation (RIR), as well as item-test correlation (RIT) are presented below:                                                                               Difficulty   Mean        SD
+PBM_20240905_3928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1     0.5790 0.5790 0.4938430
+PBM_20240906_4928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1     0.5755 0.5755 0.4943905
+PBM_20240907_5928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1     0.6745 0.6745 0.4686785
+PBM_20240908_6928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1     0.5480 0.5480 0.4978151
+                                                                                    RIR       RIT
+PBM_20240905_3928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1 0.1275355 0.2823581
+PBM_20240906_4928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1 0.1298544 0.2847238
+PBM_20240907_5928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1 0.2142462 0.3558820
+PBM_20240908_6928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1 0.1510732 0.3057905
+ These items' distractor analyses are presented below, where #1 the test takers overall performance are grouped to 'poor','mid', and'good' according to their total scores and #2 the options including key and distractors are marked: $PBM_20240905_3928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1
+               score.level
+response              poor        mid       good
+  A(key)        0.43169399 0.59972678 0.75186567
+  B(distractor) 0.17213115 0.09153005 0.06716418
+  C(distractor) 0.09153005 0.08469945 0.03731343
+  D(distractor) 0.30464481 0.22404372 0.14365672
+
+$PBM_20240906_4928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1
+               score.level
+response              poor        mid       good
+  A(key)        0.43306011 0.60382514 0.73134328
+  B(distractor) 0.20218579 0.15983607 0.10261194
+  C(distractor) 0.31147541 0.20901639 0.13619403
+  D(distractor) 0.05327869 0.02732240 0.02985075
+
+$PBM_20240907_5928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1
+               score.level
+response               poor         mid        good
+  A(distractor) 0.002732240 0.000000000 0.003731343
+  B(key)        0.490437158 0.724043716 0.858208955
+  C(distractor) 0.158469945 0.102459016 0.050373134
+  D(distractor) 0.348360656 0.173497268 0.087686567
+
+$PBM_20240908_6928219eabe229d99cd72289377e67944c8e919b5fca6394305c13cd44d850b1
+               score.level
+response               poor         mid        good
+  A(distractor) 0.321038251 0.243169399 0.158582090
+  B(distractor) 0.266393443 0.188524590 0.085820896
+  C(distractor) 0.021857923 0.010928962 0.005597015
+  D(key)        0.390710383 0.557377049 0.750000000
+
