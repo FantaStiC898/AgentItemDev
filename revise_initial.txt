@@ -1,0 +1,73 @@
+Now you are the author reviewing the item draft you developed as well as the comments/suggestions from three NBME editorial staff members. 
+
+Please carefully review materials below, respond to queries from the staff editor, verify the correct answer and classification codes, and confirm the appearance of any associated pictorials. Any disagreements about phrasing should be documented so that they can be presented to the editorial staff again. Please see the </Requirement> and generate output accordingly.
+
+The revised test questions conform to USMLE's specifications.
+The revised USMLE-Step-1-style MCQ-item should have 5 options with sufficient differentiation and a correct answer.
+
+</Requirement>
+1. Whether you revise or not, you MUST provide the final version of the item (after polishing if there is any) in a valid JSON format.
+2. You may include your thought process and analysis before the JSON output, but the final response MUST end with a properly formatted JSON.
+3. The JSON output must contain ALL of the following keys:
+   - "id"
+   - "disciplines"
+   - "systems"
+   - "competencies"
+   - "question"
+   - "options" (Be sure to have five)
+   - "correct_answer"
+   - "Explanation"
+   - "Rationale_for_excluding_other_options"
+   - "Key_Learning_Points"
+   - "image_needed"
+   - "image_type" (only choose from: ChestCT, CXR, or fundus)
+   - "image_prompt" (must be ≤12 words)
+   - "last_edit_by" (always set to "author")
+   - "comment"
+4. You should put the content of the final version to the json to fulfill the values of each key. You should put "last_edit_by": "author".
+5. In the "comment" field, include all your responses to the editorial feedback, explaining your reasoning for accepting or rejecting each suggestion. This field should provide a clear record of how you addressed each piece of feedback such that one can track to see why and what the changes have been made. 
+6. Ensure your JSON is properly formatted with correct syntax (quotes, commas, brackets).
+7. If reviewers' and editors' suggested question requires medical imaging that doesn't match the ONLY available image types (ChestCT, CXR, or fundus), you have two options:
+(1)Decline to revise and modify the question to work with one of these three permitted image types
+(2)Set image_needed=false and create a question that doesn't require an image
+Note: Other imaging types (such as HeadCT, MRI, ultrasound, etc.) are NOT available and CANNOT be used. The system strictly supports only ChestCT, CXR, and fundus image types.
+8. We strongly encourage the use of medical imaging to enhance the educational value of MCQ items. When appropriate, include relevant imaging that would help students develop diagnostic reasoning skills. Visual elements can significantly improve the authenticity of clinical scenarios and better prepare students for real-world medical practice. Consider how images might provide critical diagnostic information that text alone cannot convey.
+9. When creating questions involving imaging, always verify that your image_type selection matches one of these three options exactly.
+</Requirement>
+
+# Example JSON structure
+```json
+{
+  "id": "item_123",
+  "disciplines": ["discipline1", "discipline2"],
+  "systems": ["system1"],
+  "competencies": ["competency1", "competency2"],
+  "question": "Final version of the question text...",
+  "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text",
+    "E": "Option E text"
+  },
+  "correct_answer": "B",
+  "Explanation": "Detailed explanation of the correct answer...",
+  "Rationale_for_excluding_other_options": "Explanation of why other options are incorrect...",
+  "Key_Learning_Points": "Important concepts this item tests...",
+  "image_needed": [true/false],
+  "image_type": [\"ChestCT/CXR/fundus\"|null],
+  "image_prompt": [\"...\"|null],
+  "last_edit_by": "author",
+  "comment": "My responses to editorial feedback: 1) Regarding suggestion X, I agree and have modified... 2) For suggestion Y, I disagree because..."
+}
+
+# Notes
+1. "image_needed"=true ONLY when imaging critical for diagnosis
+2. when "image_needed"=true, vignette is forbidden to include image feature description
+3. "image_prompt" must be ≤12 words
+4. "image_type" and "image_prompt" required when image_needed=true, otherwise null
+5. Maintain USMLE Step 1 vignette standards
+6. ChestCT descriptions MUST reference EGFR status
+7. "image_prompt" should not be described in detail in the question. → Use "XXXX[An x-ray of Chest] is shown." instead.
+
+Below are the materials containing the item draft as well as the comments/suggestions. Note that you have to consider all three members' suggestions/comments together, do not leave any suggestions unaddressed.

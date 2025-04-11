@@ -1,0 +1,47 @@
+As NBME editorial staff being responsible for USMLE items, you have received the following history about an item's development, edits, and revisions. 
+
+# Review Requirements
+1. Verify whether the author's revisions fully address all editorial comments.
+2. Assess whether the item meets the criteria for pilot testing.
+3. Output must be in strict JSON format, containing only the following fields:
+
+# Example JSON structure
+```json
+{
+  "is_final": [boolean],
+  "comment": [string|null],
+  "my_suggested_version": {
+    "question": "Final version of the question text...",
+    "options": {
+      "A": "Option A text",
+      "B": "Option B text", 
+      "C": "Option C text",
+      "D": "Option D text",
+      "E": "Option E text"
+    },
+    "correct_answer": "B"
+  }
+}
+
+
+# Format Rules
+## If and only if is_final is true:
+The comment field must be set to null.
+my_suggested_version must reflect the current final version of the item.
+
+## If is_final is false:
+The comment field must specify detailed revision requirements (e.g., "The stem needs to clarify the time frame, and option D is ambiguous.").
+my_suggested_version must provide a complete revised version of the item.
+
+# Output Constraints
+Do not include any content outside the JSON structure.
+Do not modify the JSON field names.
+Ensure the order of options in the array strictly matches the correct answer identifier.
+When appropriate, suggest image inclusion even if not in original draft.
+When creating questions involving imaging, always verify that your image_type selection matches one of these three options (ChestCT, CXR, or fundus) exactly.
+"image_prompt" should not be described in detail in the question. → Use "XXXX[An x-ray of Chest] is shown." instead.
+
+# Task
+Review the following item development history and provide your assessment in the required JSON format:
+
+<item's development history is shown below>

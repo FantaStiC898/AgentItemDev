@@ -1,0 +1,139 @@
+Here are four examples of USMLE Step 1 MCQ-items that you can learn from：
+<example#1>
+A 52-year-old man is admitted to the hospital because of a 2-hour history of vomiting bright red blood. His pulse is
+125/min, and blood pressure is 90/60 mm Hg. Physical examination shows jaundice and visible blood vessels
+surrounding the umbilicus. CT scans of the abdomen are shown. To decrease portal venous pressure in this patient, it is
+most appropriate to place a shunt between the portal vein and which of the following additional vessels?
+(A) Inferior mesenteric vein
+(B) Inferior vena cava
+(C) Left gastric vein
+(D) Splenic vein
+(E) Superior mesenteric vein
+Correct Answer: B
+</example1>
+
+<example#2>
+A 26-year-old woman comes to the physician with her husband for counseling prior to conception. Her mother and three of her five siblings have type 2 diabetes mellitus. She is 170 cm (5 ft 7 in) tall and weighs 82 kg (180 lb); BMI is 28 kg/m2. Her blood pressure is 148/84 mm Hg. Physical examination shows no other abnormalities. Her fasting serum glucose concentration is 110 mg/dL. Which of the following is the most appropriate initial statement by the physician?
+
+(A) "Let’s review ways you can optimize your own health before conceiving."
+(B) "We should test you for islet cell antibodies before you try to conceive."
+(C) "You can conceive right away since you are in good health."
+(D) "You should avoid gaining weight during pregnancy because you are already overweight and at risk for type 2 diabetes mellitus."
+(E) "You should have no problems with your pregnancy if you start insulin therapy."
+Correct Answer: A
+</example#2>
+
+<example#3>
+{Patient Information:
+{Age: 6 years
+Gender: M,
+Race/Ethnicity: unspecified,
+Site of Care: office}
+}
+The patient is brought by his mother because of a 1-month history of bleeding gums after brushing his teeth, increasingly severe muscle and joint pain, fatigue, and easy bruising. His mother says he has lost six baby teeth and has been irritable during this time. Use of acetaminophen has provided minimal relief of his pain. He has autism spectrum disorder. He is not toilet-trained. He has a 10-word vocabulary. Vital signs and oxygen saturation on room air are within normal limits. The patient appears alert but does not speak or make eye contact. Skin is pale and coarse. Examination of the scalp shows erythematous hair follicles. Dentition is poor, and gingivae bleed easily to touch. Multiple ecchymoses and petechiae are noted over the trunk and all extremities. There is marked swelling and tenderness to palpation of the elbow, wrist, knee, and ankle joints. He moves all extremities in a limited, guarded manner. Deep tendon reflexes are absent throughout. It is most appropriate to obtain specific additional history regarding which of the following in this patient?
+(A) Diet
+(B) Evidence of pica
+(C) Herbal supplementations
+(D) Lead exposure
+(E) Self-injurious behaviors 
+Correct Answer: A
+</example#3>
+
+</example#4>
+A study is designed to evaluate the feasibility of acupuncture in children with chronic headaches. Sixty children with chronic headaches are recruited for the study. In addition to their usual therapy, all children are treated with acupuncture three times a week for 2 months. Which of the following best describes this study design?
+(A) Case-control
+(B) Case series
+(C) Crossover
+(D) Cross-sectional
+(E) Historical cohort
+Correct Answer: B
+</example#4>
+
+Okay, the examples end here. Now please be very careful in reading the following requirement.
+
+After learning the examples, please develop an [MCQ-item] in the style of USMLE Step 1 Test, each containing a clinical vignette of about 5 to 6 sentences.
+The MCQ-item MUST have 5 options with sufficient differentiation and a correct answer.
+The question is to be answered by medical students. Other-that is, different answer options must not contain directly opposite statements. Please mark the correct answer at the end.
+Please also avoid pseudovignettes.
+
+# Medical Imaging Information
+【Content Analysis】
+Analyze clinical scenario requirements.
+Determine if visualization would enhance diagnostic reasoning and question understanding.
+Key indicators:
+▸ Image is core diagnostic evidence (e.g., EGFR status)
+▸ Specific imaging features need demonstration (e.g., lung consolidation)
+▸ Ambiguous imaging findings exist
+
+Checklist:
+If existing descriptions in Stem (e.g., pathology slides, "An x-ray reveals ..."/"Fundoscopy reveals ...") →  image_needed=false
+If image_needed=true → Image descriptions such as "CT scans of the abdomen are shown"/"An x-ray of Chest is shown."... can appear in the stem of the question → Image feature description should NOT appear directly in the stem!
+
+
+【Imaging Decision】
+If imaging needed, choose from [ChestCT|CXR|fundus]. Consider:
+- ChestCT: EGFR mutations, tumor characterization
+- CXR: Pneumonia, pleural effusion 
+- Fundus: Diabetic retinopathy, glaucoma
+
+Note: If the pictures to be generated are NOT of these three types, please describe the relevant features directly in the stem. →  image_needed=false
+
+【Prompt Drafting】
+Create precise image descriptions ("image_prompt") using patterns:
+ChestCT: 'The chest CT [identifies/shows/reveals]...'
+CXR: 'The chest X-ray [demonstrates/depicts]...'
+Fundus: 'The fundus image [displays/indicates]...'
+
+【Vignette Construction】
+Integrate imaging background context naturally in 5-6 sentence vignette.
+Image descriptions such as "CT scans of the abdomen are shown" can appear in the stem of the question, but the image feature description ("image_prompt") should NOT appear directly in the stem and can ONLY appear in the options.
+
+
+【Option Validation】
+Ensure options are distinct and non-contradictory. Avoid image-dependent distractors.
+
+【Image Enhancement】
+We strongly encourage the use of medical imaging to enhance the educational value of MCQ items. When appropriate, include relevant imaging that would help students develop diagnostic reasoning skills. Visual elements can significantly improve the authenticity of clinical scenarios and better prepare students for real-world medical practice. Consider how images might provide critical diagnostic information that text alone cannot convey.
+
+####
+Generate JSON with STRICT NULL HANDLING:
+{
+  "question": "...",
+  "options": {
+    "A": "...",
+    "B": "...", 
+    "C": "...",
+    "D": "...",
+    "E": "..."
+  },
+  "correct_answer": "A/B/C/D/E",
+  "explanation": "...",
+  "image_needed": true/false,
+  "image_type": "ChestCT/CXR/fundus"|null,
+  "image_prompt": "..."|null
+}
+
+Examples for imaging fields:
+- When normal: \"Fundus shows intact retinal vasculature\"
+- When normal: \"The chest CT shows a tumor without EGFR mutation\"
+- When pathological: \"CXR reveals left lower lobe consolidation\"
+- When pathological: \"This CT image highlights an abnormal growth with EGFR mutation\"
+
+
+Special rules:
+1. "image_needed"=true ONLY when imaging critical for diagnosis
+2. when "image_needed"=true, vignette is forbidden to include image feature description
+3. "image_prompt" must be ≤12 words
+4. "image_type" and "image_prompt" required when image_needed=true, otherwise null
+5. Maintain USMLE Step 1 vignette standards
+6. ChestCT descriptions MUST reference EGFR status
+7. "image_prompt" should not be described in detail in the question.
+
+
+# Thinking Process Guidance
+Think step by step, but only keep a minimum draft for each thinking step, with 5 words at most.
+After completion, provide the complete JSON format [MCQ-item].
+
+# Content Specifications
+This [MCQ-item] that you are developing should cover the following content specifications. Please ensure that terms used in the content specifications do not have to appear in each answer option.
+<content specification of the item you are developing>

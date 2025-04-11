@@ -1,0 +1,305 @@
+{
+  "Areas needing more items": [
+    {
+      "disciplines": "Pathology",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Physiology",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pharmacology",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Biochemistry & Nutrition",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Microbiology",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Gross Anatomy & Embryology",
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pathology",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Physiology",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pharmacology",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Biochemistry & Nutrition",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Microbiology",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Gross Anatomy & Embryology",
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pathology",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Physiology",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pharmacology",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Biochemistry & Nutrition",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Microbiology",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Gross Anatomy & Embryology",
+      "systems": "Reproductive & Endocrine Systems",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pathology",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Physiology",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Pharmacology",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Biochemistry & Nutrition",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Microbiology",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    },
+    {
+      "disciplines": "Gross Anatomy & Embryology",
+      "systems": "Multisystem Processes & Disorders",
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts"
+    }
+  ],
+  "(from discipline)current itembank status with current volume and the lower&uppper bounds required by NBME": [
+    {
+      "disciplines": "Pathology",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.12,
+      "LowerBound": 0.44,
+      "UpperBound": 0.52
+    },
+    {
+      "disciplines": "Physiology",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.04,
+      "LowerBound": 0.25,
+      "UpperBound": 0.35
+    },
+    {
+      "disciplines": "Pharmacology",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.07,
+      "LowerBound": 0.15,
+      "UpperBound": 0.22
+    },
+    {
+      "disciplines": "Biochemistry & Nutrition",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.11,
+      "LowerBound": 0.14,
+      "UpperBound": 0.24
+    },
+    {
+      "disciplines": "Microbiology",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.03,
+      "LowerBound": 0.1,
+      "UpperBound": 0.15
+    },
+    {
+      "disciplines": "Immunology",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.12,
+      "LowerBound": 0.06,
+      "UpperBound": 0.11
+    },
+    {
+      "disciplines": "Gross Anatomy & Embryology",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.1,
+      "LowerBound": 0.11,
+      "UpperBound": 0.15
+    },
+    {
+      "disciplines": "Histology & Cell Biology",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.17,
+      "LowerBound": 0.08,
+      "UpperBound": 0.13
+    },
+    {
+      "disciplines": "Behavioral Sciences",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.13,
+      "LowerBound": 0.08,
+      "UpperBound": 0.13
+    },
+    {
+      "disciplines": "Genetics",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.11,
+      "LowerBound": 0.05,
+      "UpperBound": 0.09
+    }
+  ],
+  "(from system)current itembank status with current volume and the lower&uppper bounds required by NBME": [
+    {
+      "systems": "Human Development",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.12,
+      "LowerBound": 0.01,
+      "UpperBound": 0.03
+    },
+    {
+      "systems": "Blood & Lymphoreticular/Immune Systems",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.12,
+      "LowerBound": 0.09,
+      "UpperBound": 0.13
+    },
+    {
+      "systems": "Behavioral Health & Nervous Systems/Special Senses",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.07,
+      "LowerBound": 0.1,
+      "UpperBound": 0.14
+    },
+    {
+      "systems": "Musculoskeletal, Skin & Subcutaneous Tissue",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.1,
+      "LowerBound": 0.07,
+      "UpperBound": 0.12
+    },
+    {
+      "systems": "Cardiovascular System",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.11,
+      "LowerBound": 0.06,
+      "UpperBound": 0.11
+    },
+    {
+      "systems": "Respiratory & Renal/Urinary Systems",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.1,
+      "LowerBound": 0.11,
+      "UpperBound": 0.15
+    },
+    {
+      "systems": "Gastrointestinal System",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.1,
+      "LowerBound": 0.05,
+      "UpperBound": 0.1
+    },
+    {
+      "systems": "Reproductive & Endocrine Systems",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.06,
+      "LowerBound": 0.12,
+      "UpperBound": 0.16
+    },
+    {
+      "systems": "Multisystem Processes & Disorders",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.04,
+      "LowerBound": 0.08,
+      "UpperBound": 0.12
+    },
+    {
+      "systems": "Biostatistics & Epidemiology/Population Health",
+      "inventoryCheck": "within",
+      "inventoryVolume": 0.06,
+      "LowerBound": 0.04,
+      "UpperBound": 0.06
+    },
+    {
+      "systems": "Social Sciences: Communication and Interpersonal Skills",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.12,
+      "LowerBound": 0.06,
+      "UpperBound": 0.09
+    }
+  ],
+  "(from competency) current itembank status with current volume and the lower&uppper bounds required by NBME": [
+    {
+      "competencies": "Medical Knowledge: Applying Foundational Science Concepts",
+      "inventoryCheck": "lower",
+      "inventoryVolume": 0.18,
+      "LowerBound": 0.6,
+      "UpperBound": 0.7
+    },
+    {
+      "competencies": "Patient Care: Diagnosis",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.31,
+      "LowerBound": 0.2,
+      "UpperBound": 0.25
+    },
+    {
+      "competencies": "Communication and Interpersonal Skills",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.29,
+      "LowerBound": 0.06,
+      "UpperBound": 0.09
+    },
+    {
+      "competencies": "Practice–based Learning & Improvement",
+      "inventoryCheck": "higher",
+      "inventoryVolume": 0.22,
+      "LowerBound": 0.04,
+      "UpperBound": 0.06
+    }
+  ]
+}

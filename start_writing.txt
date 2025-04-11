@@ -1,0 +1,181 @@
+Here are five examples of USMLE Step 1 MCQ-items that you can learn from：
+<example#1>
+A 27-year-old woman comes to the office for counseling prior to conception. She states that a friend recently delivered a newborn with a neural tube defect and she wants to decrease her risk for having a child with this condition. She has no history of major medical illness and takes no medications. Physical examination shows no abnormalities. It is most appropriate to recommend that this patient begin supplementation with a vitamin that is a cofactor in which of the following processes?
+(A) Biosynthesis of nucleotides
+(B) Protein gamma glutamate carboxylation
+(C) Scavenging of free radicals
+(D) Transketolation
+(E) Triglyceride lipolysis
+Correct Answer: A
+</example1>
+
+<example#2>
+A 26-year-old woman comes to the physician with her husband for counseling prior to conception. Her mother and three of her five siblings have type 2 diabetes mellitus. She is 170 cm (5 ft 7 in) tall and weighs 82 kg (180 lb); BMI is 28 kg/m2. Her blood pressure is 148/84 mm Hg. Physical examination shows no other abnormalities. Her fasting serum glucose concentration is 110 mg/dL. Which of the following is the most appropriate initial statement by the physician?
+
+(A) "Let’s review ways you can optimize your own health before conceiving."
+(B) "We should test you for islet cell antibodies before you try to conceive."
+(C) "You can conceive right away since you are in good health."
+(D) "You should avoid gaining weight during pregnancy because you are already overweight and at risk for type 2 diabetes mellitus."
+(E) "You should have no problems with your pregnancy if you start insulin therapy."
+Correct Answer: A
+</example#2>
+
+<example#3>
+{Patient Information:
+{Age: 6 years
+Gender: M,
+Race/Ethnicity: unspecified,
+Site of Care: office}
+}
+The patient is brought by his mother because of a 1-month history of bleeding gums after brushing his teeth, increasingly severe muscle and joint pain, fatigue, and easy bruising. His mother says he has lost six baby teeth and has been irritable during this time. Use of acetaminophen has provided minimal relief of his pain. He has autism spectrum disorder. He is not toilet-trained. He has a 10-word vocabulary. Vital signs and oxygen saturation on room air are within normal limits. The patient appears alert but does not speak or make eye contact. Skin is pale and coarse. Examination of the scalp shows erythematous hair follicles. Dentition is poor, and gingivae bleed easily to touch. Multiple ecchymoses and petechiae are noted over the trunk and all extremities. There is marked swelling and tenderness to palpation of the elbow, wrist, knee, and ankle joints. He moves all extremities in a limited, guarded manner. Deep tendon reflexes are absent throughout. It is most appropriate to obtain specific additional history regarding which of the following in this patient?
+(A) Diet
+(B) Evidence of pica
+(C) Herbal supplementations
+(D) Lead exposure
+(E) Self-injurious behaviors 
+Correct Answer: A
+</example#3>
+
+<example#4>
+{ Patient Information:
+{Age: 82 years,
+Gender: F,
+Race/Ethnicity: Chinese,
+Site of Care: urgent treatment center}
+},
+{ History
+{Reason for Visit/Chief Concern: "My lower left side hurts."}
+},
+
+{ History of Present Illness:
+[
+2-day history of moderate left lower quadrant abdominal pain,
+pain associated with fever, chills, nausea, and decreased appetite,
+has not had diarrhea or constipation,
+no history of similar symptoms
+]
+},
+{ Past Medical History:
+[hypertension,
+Hypercholesterolemia,
+most recent colonoscopy 10 years ago showed no abnormalities
+]
+},
+{ Medications:
+	[lisinopril,
+atorvastatin
+]
+},
+{ Allergies:
+no known drug allergies
+},
+{ Family History:
+	{father: deceased from stroke at age 78 years,
+mother: deceased, had hypertension}
+},
+{
+Psychosocial History: does not smoke cigarettes, drink alcoholic beverages, or use other substances
+},
+{
+  "Physical_Examination": {
+    "Vitals": {
+      "Temperature": {
+        "Celsius": 38.5,
+        "Fahrenheit": 101.3
+      },
+      "Pulse": "100/min",
+      "Respiratory_Rate": "22/min",
+      "Blood_Pressure": "164/72 mm Hg",
+      "Oxygen_Saturation": "98% on RA",
+      "Height": {
+        "Centimeters": 155,
+        "Feet_and_Inches": "5 ft 1 in"
+      },
+      "Weight": {
+        "Kilograms": 54,
+        "Pounds": 119
+      },
+      "BMI": "23 kg/m2"
+    },
+    "Appearance": "anxious because of pain",
+    "Pulmonary": "clear to auscultation",
+    "Cardiac": {
+      "Rhythm": "regular",
+      "Murmurs": "none",
+      "Rubs": "none",
+      "Gallop": "none"
+    },
+    "Abdominal": {
+      "Bowel_Sounds": "hypoactive",
+      "Tenderness": "left lower quadrant"
+    },
+    "Rectal": {
+      "Anal_Sphincter_Tone": "normal",
+      "Masses_or_Lesions": "none",
+      "Stool_Occult_Blood_Test": "negative"
+    }
+  },
+  "Diagnostic_Studies": {
+    "Serum": {
+      "Sodium": "148 mEq/L",
+      "Potassium": "4.2 mEq/L",
+      "Chloride": "99 mEq/L",
+      "Bicarbonate": "30 mEq/L",
+      "Urea_Nitrogen": "20 mg/dL",
+      "Creatinine": "1.4 mg/dL",
+      "Glucose": {
+        "Nonfasting": "100 mg/dL"
+      },
+      "ALT": "20 U/L",
+      "AST": "18 U/L"
+    },
+    "Blood": {
+      "Hematocrit": "36%",
+      "Hemoglobin": "13.0 g/dL",
+      "WBC": "12,000/mm3",
+      "Differential": {
+        "Neutrophils_Segmented": "60%",
+        "Neutrophils_Bands": "6%",
+        "Lymphocytes": "30%",
+        "Monocytes": "4%"
+      },
+      "Platelet_Count": "350,000/mm3"
+    },
+    "Urine": {
+      "Leukocyte_Esterase": "Negative",
+      "Nitrite": "Negative",
+      "WBCs": "2/hpf",
+      "RBCs": "0/hpf"
+    },
+    "CT_Scan": {
+      "Location": "abdomen and pelvis",
+      "Status": "obtained",
+      "Results": "pending"
+    }
+  }
+}
+Question: Which of the following is the most likely diagnosis?
+A) Appendicitis
+B) Colorectal cancer
+C) Crohn disease
+D) Diverticulitis
+E) Pseudomembranous colitis
+Correct Answer: D
+</example#4>
+
+</example#5>
+A study is designed to evaluate the feasibility of acupuncture in children with chronic headaches. Sixty children with chronic headaches are recruited for the study. In addition to their usual therapy, all children are treated with acupuncture three times a week for 2 months. Which of the following best describes this study design?
+(A) Case-control
+(B) Case series
+(C) Crossover
+(D) Cross-sectional
+(E) Historical cohort
+Correct Answer: B
+</example#5>
+
+Okay, the examples end here. Now please be very careful in reading the following requirement.
+
+After learning the examples, please develop an [MCQ-item] in the style of USMLE Step 1 Test, each containing a clinical vignette of about 5 to 6 sentences. The MCQ-item should have 5 answer options and a 1 correct answer. The question is to be answered by medical students. other-that is, different answer options must not contain directly opposite statements. Please mark the correct answer at the end." 
+You should generate the output in a JSON format, of which the keys are "question", "options", and "correct_answer".
+This [MCQ-item] that you are developing should cover the following content specifications. Please ensure that terms used in the content specifications do not have to appear in each answer option. Please also avoid pseudovignettes. 
+<content specification of the item you are developing>
